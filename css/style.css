@@ -281,6 +281,8 @@ footer {
 /* home section */
 
 #home {
+    background-color: #000;
+    opacity: .8;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -292,15 +294,6 @@ footer {
     text-align: center;
     height: 100vh;
     color: #ffffff;
-}
-
-#home .home-thumb {
-    width: 100%;
-    text-align: center;
-    align-content: center;
-    background-color: #000;
-    padding: 40px;
-    opacity: .8;
 }
 
 #home .btn {
