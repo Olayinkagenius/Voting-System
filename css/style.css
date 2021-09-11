@@ -454,13 +454,14 @@ footer a:hover {
 /* modal */
 
 .modal-dialog .modal-content {
-    background: url('../images/modal-bg.jpg') no-repeat;
+    background: rgba(0, 0, 0, .75) url('../images/modal-bg.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     border-radius: 0;
     text-align: center;
     padding: 100px 50px 100px 50px;
     position: relative;
+    background-blend-mode: darken;
 }
 
 .btn:focus {
@@ -522,6 +523,15 @@ footer a:hover {
     background: #f1c11a;
     border-color: transparent;
     color: #ffffff;
+}
+
+.modal-content p span a {
+    color: #ffff;
+    text-decoration: underline;
+}
+
+.modal-content p span a:hover {
+    color: #f1c11a;
 }
 
 
