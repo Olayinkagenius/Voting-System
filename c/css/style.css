@@ -1,0 +1,13 @@
+body {
+    background: rgba(0, 0, 0, .75) url(../../images/create.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 0;
+    text-align: center;
+    position: relative;
+    background-blend-mode: darken;
+}
+
+section .create-account h1 {
+    color: #FFF;
+}
