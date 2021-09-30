@@ -1,9 +1,10 @@
 body {
-    background: rgba(0, 0, 0, .75) url(../../images/create.jpg);
+    background: rgba(0, 0, 0, .85) url(../../images/create.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     border-radius: 0;
     text-align: center;
+    padding: 100px 50px 100px 50px;
     position: relative;
     background-blend-mode: darken;
 }
