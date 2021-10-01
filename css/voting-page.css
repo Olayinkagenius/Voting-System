@@ -1,0 +1,115 @@
+body {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* MAIN MENU */
+
+.logo-text p {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #ffff;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.fixed-menu {
+    background-color: #000000;
+    height: 100vh;
+    width: 20%;
+    position: fixed;
+    padding: 40px;
+    color: #ffff
+}
+
+.side-list a:hover {
+    text-decoration: none;
+}
+
+.side-list li {
+    display: flex;
+    margin-left: -40px;
+    margin-bottom: 40px;
+}
+
+.side-list li img {
+    margin-right: 19px;
+    width: 20px;
+}
+
+.side-list li p {
+    margin-top: 13px;
+    font-size: 16px;
+    color: #ffff;
+}
+
+.btn:hover,
+.active {
+    background-color: #1a1ef1;
+}
+
+
+/* DASHBOARD */
+
+.vote-dashboard {
+    margin-left: 20%;
+    padding: 40px;
+    height: 100VH;
+}
+
+.welcome-text {
+    margin-top: -20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.election-status {
+    margin-top: 15px;
+    background-color: #1a1ef1;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.election-status img {
+    width: 100px;
+    margin-left: 20px;
+    margin-top: -8px;
+}
+
+.status-text {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.encouragement-text {
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+    border: 3px solid #1a1ef1;
+    border-radius: 20px;
+}
+
+.encouragement-text img {
+    width: 400px;
+}
+
+.encourage-txt {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 24px;
+    font-weight: 400;
+}
