@@ -120,13 +120,22 @@ a {
 .detail-box {
     margin-left: 20vw;
     padding: 40px;
-    height: 100VH;
+    height: auto;
 }
 
 .detail-head {
     margin-top: -20px;
     font-size: 24px;
     font-weight: 600;
+}
+
+.detail-body {
+    font-size: 16px;
+}
+
+.detail-body ul {
+    margin-top: 20px;
+    list-style-type: square;
 }
 
 
@@ -136,7 +145,7 @@ a {
     .fixed-menu {
         height: 10vh;
         width: 100vw;
-        padding: 18px 10px 10px 30px;
+        padding: 14px 10px 10px 20px;
         display: flex;
         justify-content: space-between;
     }
@@ -145,6 +154,7 @@ a {
     }
     .vote-dashboard,
     .detail-box {
+        padding: 40px 20px 20px 20px;
         margin-left: 0px;
         height: auto;
     }
@@ -157,5 +167,9 @@ a {
     .encouragement-text {
         display: block;
         padding-bottom: 30px;
+        overflow: hidden;
+    }
+    .encouragement-text img {
+        width: 80%;
     }
 }
