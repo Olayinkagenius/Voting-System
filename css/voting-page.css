@@ -113,3 +113,49 @@ a {
     font-size: 24px;
     font-weight: 400;
 }
+
+
+/* STUDENT DETAILS */
+
+.detail-box {
+    margin-left: 20vw;
+    padding: 40px;
+    height: 100VH;
+}
+
+.detail-head {
+    margin-top: -20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 1100px) {
+    .fixed-menu {
+        height: 10vh;
+        width: 100vw;
+        padding: 18px 10px 10px 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu-list {
+        display: none;
+    }
+    .vote-dashboard,
+    .detail-box {
+        margin-left: 0px;
+        height: auto;
+    }
+    .vote-dashboard {
+        margin-top: 10vh;
+    }
+}
+
+@media (max-width: 900px) {
+    .encouragement-text {
+        display: block;
+        padding-bottom: 30px;
+    }
+}
