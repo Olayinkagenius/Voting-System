@@ -123,7 +123,8 @@ a {
     height: auto;
 }
 
-.detail-head {
+.detail-head,
+.vote-major-head {
     margin-top: -20px;
     font-size: 24px;
     font-weight: 600;
@@ -146,6 +147,28 @@ a {
 .detail-body ul li {
     margin-bottom: 10px;
     width: 40%;
+    margin-right: 30px;
+}
+
+
+/* VOTE */
+
+.vote-major-box {
+    margin-left: 20vw;
+    padding: 40px;
+    height: auto;
+}
+
+.votes-available h3 {
+    margin-top: -10px;
+}
+
+.votes-available ul {
+    list-style-type: square;
+}
+
+.votes-available ul li {
+    margin-bottom: 10px;
 }
 
 
@@ -163,7 +186,8 @@ a {
         display: none;
     }
     .vote-dashboard,
-    .detail-box {
+    .detail-box,
+    .vote-major-box {
         padding: 40px 20px 20px 20px;
         margin-left: 0px;
         height: auto;
