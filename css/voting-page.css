@@ -127,6 +127,7 @@ a {
     margin-top: -20px;
     font-size: 24px;
     font-weight: 600;
+    margin-bottom: 15px;
 }
 
 .detail-body {
@@ -136,6 +137,15 @@ a {
 .detail-body ul {
     margin-top: 20px;
     list-style-type: square;
+}
+
+.detail-body span {
+    display: flex;
+}
+
+.detail-body ul li {
+    margin-bottom: 10px;
+    width: 40%;
 }
 
 
@@ -171,5 +181,8 @@ a {
     }
     .encouragement-text img {
         width: 80%;
+    }
+    .encourage-txt {
+        font-size: 18px;
     }
 }
